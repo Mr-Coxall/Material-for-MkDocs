@@ -1,6 +1,8 @@
 site_name: Computer Based Problem Solving
 theme:
   name: material
+  logo: assets/CS.svg
+  favicon: assets/CS.svg
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -16,4 +18,30 @@ theme:
         icon: material/brightness-3
         name: Switch to light mode
   font:
-    text: Roboto
+    text: Mali
+    code: Noto Sans Mono
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.share
+    - navigation.footer
+  plugins:
+    - search
+    - offline
+extra:
+  social:
+    - icon: material/storefront-edit-outline
+      link: https://icd2o.mths.ca
+      name: ICD2O Course Website
+    - icon: material/storefront-edit-outline
+      link: https://ics3u.mths.ca
+      name: ICS3U Course Website
+    - icon: material/storefront-edit-outline
+      link: https://ics4u.mths.ca
+      name: ICS4U Course Website
+  generator: false
+copyright: Copyright &copy; 2020 - Mr Coxall
+repo_url: https://github.com/mr-coxall
