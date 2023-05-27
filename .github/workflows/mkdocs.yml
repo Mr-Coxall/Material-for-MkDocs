@@ -1,4 +1,4 @@
-name: ci 
+name: Material for MKDocs build
 on:
   push:
     branches:

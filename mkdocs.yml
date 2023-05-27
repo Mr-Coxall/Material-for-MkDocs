@@ -28,20 +28,32 @@ theme:
     - search.suggest
     - search.share
     - navigation.footer
+    - content.code.copy
+    - content.code.annotate
   plugins:
     - search
     - offline
 extra:
   social:
-    - icon: material/storefront-edit-outline
+    - icon: material/numeric-2-box-multiple-outline
       link: https://icd2o.mths.ca
       name: ICD2O Course Website
-    - icon: material/storefront-edit-outline
+    - icon: material/numeric-3-box-multiple-outline
       link: https://ics3u.mths.ca
       name: ICS3U Course Website
-    - icon: material/storefront-edit-outline
+    - icon: material/numeric-4-box-multiple-outline
       link: https://ics4u.mths.ca
       name: ICS4U Course Website
   generator: false
 copyright: Copyright &copy; 2020 - Mr Coxall
 repo_url: https://github.com/mr-coxall
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
